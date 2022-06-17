@@ -1,13 +1,41 @@
 .info {
     background-color: black;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
 }
 
 .info a {
     color: #fff;
+    text-decoration: none;
+    margin: 0px 5px px 5px;
+    padding: 5px;
 }
 
-.info svg {
-    color: #fff;
+.info a:hover {
+    text-decoration: underline;
+}
+
+.info2 {
+    justify-content: flex-end;
+    text-align: right;
+    padding: 5px;
+    font-size: 13px;
+    width: 100%;
+    height: 32px;
+}
+
+.info2 a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 30px;
 }
