@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
+
+* {
+  font-family: 'BIZ UDPGothic',
+  sans-serif;
+}
+
 .info {
     background-color: black;
     display: flex;
@@ -17,6 +24,7 @@
 
 .info a:hover {
     text-decoration: underline;
+    color: #fff;
 }
 
 .info2 {
@@ -34,8 +42,66 @@
     margin: 0px 10px 0px 10px;
 }
 
+.info2 a:hover {
+    color: black;
+}
+
 .logo {
     position: absolute;
-    top: 50px;
-    left: 30px;
+    top: 60px;
+    left: 40px;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    left: 270px;
+    top: 90px;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    text-decoration: solid;
+    margin: 0px 10px 0px 10px;
+    font-size: 12px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.menu2 {
+    display: flex;
+    position: absolute;
+    right: 140px;
+    top: 80px;
+}
+
+.menu2 a {
+    color: black;
+    margin: 0px 10px 0px 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.menu2 input {
+    width: 160px;
+    font-size: 12px;
+    height: 30px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: solid thin #e9ecef;
+}
+
+.menu2 input:active {
+    border-color: #767677;
+}
+
+.menu2 button {
+    border: none;
+    background: transparent;
 }
